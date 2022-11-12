@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Assigment Route">
+    <meta name="keywords" content="Assigment ">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body >
+    <section id="signIn" class="py-5" >
+        <div class="container-fluid w-50 mx-auto text-center py-4 bg-dark bg-opacity-50 text-info  shadow-lg ">
+            <h2 >Smart Login System</h2>
+            <input class="form-control mt-4" type="email" placeholder="Enter Your E-mail (Ex/asd@asd.com) " >
+            <input class="form-control my-4" type="password" placeholder="Enter Your Password" >
+            <p class="d-none text-dark fw-bold bg-danger px-2">fill the inputs first</p>
+            <p class=" d-none text-dark fw-bold bg-danger px-2">your email or password is incorrect</p>
+            <a id="LoginBtn" class="btn btn-info w-100">Login</a>
+            <span class="text-white fs-5 py-3"> don't have an accoount? <button class="btnSignUp btn btn-link">Sign Up</button> </span>
+        </div>
+
+    </section>
+    
+    
+    <section id="signUp" class="py-5 d-none">
+        <div class="container-fluid w-50 mx-auto text-center py-4 bg-dark bg-opacity-50 text-info  shadow-lg ">
+            <h2 >Smart Login System            </h2>
+            <input id="signUpName" class="form-control mt-4" type="text" placeholder="Enter Your Name" >
+            <input id="signUpEmail" class="form-control mt-4" type="email" placeholder="Enter Your E-mail (Ex/asd@asd.com)" >
+            <input id="signUpPass" class="form-control my-4" type="password" placeholder="Enter Your Password (min 6 characters)" >
+            <p id="signUpAlert1" class="d-none text-dark fw-bold bg-danger px-2">this account is exist ! Try another one.</p>
+            <p id="signUpAlert2" class=" d-none text-dark fw-bold bg-danger px-2">signUp failed ! Fill All Required</p>
+            <p id="signUpAlert3" class=" d-none text-white fw-bold bg-success px-2">Success</p>
+            <p id="signUpAlert4" class="d-none text-dark fw-bold bg-danger px-2">Please enter Correct information</p>
+            <button id="signUpBtn" class="btn btn-info w-100">Sign Up</button>
+            <span class="text-white fs-5 py-3"> don't have an accoount? <button id="signInLink" class=" btn btn-link">Sign In</button> </span>
+        </div>
+
+        
+    </section>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
